@@ -68,8 +68,4 @@ Los códigos RAPID y videos de su producción, se encuentran dentro del mismo re
 
 * Se podría mejorar las curvaturas de las letras utilizando una mejor interpolación de los puntos de las trayectorias, es decir, establecer más cantidad de targets dentro del path y colocarles movimientos circulares para evitar los trazos rectos en estas curvas.
 * Se podría reducir la distancia entre letras, debido a que varios de los errores arrojados por RobotStudio se basaban en que el manipulador no podía llegar tan fácil de un punto a otro que fuera relativamente lejano, y también para evitar posibles singularidades, entre más distancia, más probable a que deba existir una rotación o movimiento indeseado en el robot, lo que causaría su bloqueo o singularidad.
-* Sobre la fabricación de la pieza impresa...
-
-
-
-
+* La pieza impresa tuvo problemas al ser implementada pues no se siguieron las indicaciones dadas por el plano del manipulador, se podría tener en cuenta las dimensiones correctas para no evitar problemas de ensamblare de la herramienta.
