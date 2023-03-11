@@ -1,4 +1,3 @@
-# Rob-tica
 # Laboratorio #1 - Robótica Industrial.
 
 ### Herramienta. 
@@ -13,11 +12,11 @@ Se realizó el modelado con Autodesk Inventor por facilidades en la exportación
 
 ![](https://i.imgur.com/9KUTvKP.png)
 
-Como se puede observar en el modelo anterior, la base de la herramienta se ideó para tener un soporte cilíndrico con una inclinación de 10 grados respecto al plano basal de la pieza, lo cual le permitió estar desalineado del plano del plato como fue recomendado. La base de la herramienta fue entonces impresa y quedó como se muestra en la siguiente imagen
+Como se puede observar en el modelo anterior, la base de la herramienta se ideó para tener un soporte cilíndrico con una inclinación de 10 grados respecto al plano basal de la pieza, lo cual le permitió estar desalineado del plano del plato como fue recomendado. La base de la herramienta fue entonces impresa y quedó como se muestra en la siguiente imagen.
 
 ![](https://i.imgur.com/HJcXccb.jpg)
 
-Finalmmente, la pieza logró ser acoplada a la articulación número seis del manipulador luego de algunos arreglos hechos posteriormente. Se tuvo algunas dificultades que se abordarán en los aspectos a mejorar.
+Finalmente, la pieza logró ser acoplada a la articulación número seis del manipulador luego de algunos arreglos hechos posteriormente. Se tuvo algunas dificultades que se abordarán en los aspectos a mejorar.
 
 Esta pieza fue ideada para completar la herramienta con un tubo en PVC junto con un tapón del mismo material usado para tuberías. estos fueron unidos a la base por medio de un acople y finalmente la pieza quedó de la siguiente manera:
 
@@ -67,7 +66,8 @@ Los códigos RAPID y videos de su producción, se encuentran dentro del mismo re
 #### Aspectos a mejorar
 
 
-* Se podría mejorar las curvaturas de las letras utilizando una mejor interpolación de los puntos de las trayectorias, es decir, establecer más cantidad de targets dentro de un path y colocar movimientos circulares para evitar los trazos rectos en 
+* Se podría mejorar las curvaturas de las letras utilizando una mejor interpolación de los puntos de las trayectorias, es decir, establecer más cantidad de targets dentro del path y colocarles movimientos circulares para evitar los trazos rectos en estas curvas.
+* Se podría reducir la distancia entre letras, debido a que varios de los errores arrojados por RobotStudio se basaban en que el manipulador no podía llegar tan fácil de un punto a otro que fuera relativamente lejano, y también para evitar posibles singularidades, entre más distancia, más probable a que deba existir una rotación o movimiento indeseado en el robot, lo que causaría su bloqueo o singularidad.
 * Sobre la fabricación de la pieza impresa...
 
 
